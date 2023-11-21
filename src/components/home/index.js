@@ -22,10 +22,18 @@ function Home() {
 
     function deleteInfo(id) {
         dispatch({type:"DELETE", payload:true});
+        dispatch({type:"DELETEID", payload:id});
+    }
+
+    function confirmDelete(){
+        let newdata = state.userData?.filter((item, index) => item?.id !== state.deleteId)
+        dispatch({type:"USERDATA", payload:newdata});
+        dispatch({type:"DELETE", payload:false});
+        dispatch({type:"DELETEID", payload:null});
     }
 
     function onSubmit(data){
-        console.log(data);
+        console.log("submit",data);
     }
 
     function cancelDelet(){
@@ -63,7 +71,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            {state.deleteUser && <Dialog cancelDelet={cancelDelet}/>}
+            {state.deleteUser && <Dialog confirmDelete={confirmDelete} cancelDelet={cancelDelet}/>}
         </>
     )
 }

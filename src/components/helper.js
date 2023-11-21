@@ -15,6 +15,8 @@ export function reducer(state, action) {
             return { ...state, update: action.payload }
         case "UPDATEID":
             return { ...state, updateId: action.payload }
+        case "DELETEID":
+                return { ...state, deleteId: action.payload }    
         case "USERDATA":
             return { ...state, userData: action.payload }
         default:

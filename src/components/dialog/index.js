@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import {textDescriptionStyle} from "../helper"
 
 function Dialog(props) {
-    const { cancelDelet } = props;
+    const { cancelDelet, confirmDelete } = props;
     return (
         <div
             className="modal show"
@@ -18,7 +18,7 @@ function Dialog(props) {
                     <div className='row d-flex justify-content-end'>
                         <div className='col-6'>
                             <Button style={{padding:"0 5px", margin:"10px", fontSize:"12px"}}  onClick={cancelDelet} variant="light">Cancel</Button>
-                            <Button style={{padding:"0 5px",margin:"10px", fontSize:"12px"}}  variant="danger">Delete</Button>
+                            <Button style={{padding:"0 5px",margin:"10px", fontSize:"12px"}} onClick={confirmDelete}  variant="danger">Delete</Button>
                         </div>
                     </div>
                 </div>
