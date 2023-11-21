@@ -1,3 +1,3 @@
 # celebrities-profiles
 ## video link
->drive url: https://drive.google.com/file/d/1OkkKWLjAktuAghNAe7Ux1_HQAQH9Tefm/view?usp=sharing
+>drive url: https://drive.google.com/file/d/1cY3zImFHIXt0K3aJS7uvI177XxgAeYxw/view?usp=sharing
