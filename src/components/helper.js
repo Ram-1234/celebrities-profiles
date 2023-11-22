@@ -16,7 +16,7 @@ export function reducer(state, action) {
         case "UPDATEID":
             return { ...state, updateId: action.payload }
         case "DELETEID":
-                return { ...state, deleteId: action.payload }    
+            return { ...state, deleteId: action.payload }
         case "USERDATA":
             return { ...state, userData: action.payload }
         default:
@@ -106,8 +106,8 @@ export const textAreaDescriptionStyle = (props) => {
         color: "#000",
         borderRadius: '5px',
         background: "transparent",
-        resize:"none",
-        ...props,    
+        resize: "none",
+        ...props,
     }
 }
 
@@ -147,4 +147,5 @@ border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
+filter: drop-shadow(0 0 0.75rem crimson);
 `
