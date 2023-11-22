@@ -147,5 +147,4 @@ border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
-filter: drop-shadow(0 0 0.75rem purple);
 `
