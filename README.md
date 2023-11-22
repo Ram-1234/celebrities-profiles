@@ -1,5 +1,6 @@
 # celebrities-profiles
-## video link
->drive url: https://drive.google.com/file/d/1cY3zImFHIXt0K3aJS7uvI177XxgAeYxw/view?usp=sharing
+## video Link
+>Drive url: https://drive.google.com/file/d/1X3GNlB96dd-WBeRoB2wOjLkXiPxC0pNe/view?usp=sharing
 
->hosted link: https://655d811ffd1a4151663e6cb2--comfy-twilight-7e819e.netlify.app/
+## Hosted Link
+>Hosted url: https://655d811ffd1a4151663e6cb2--comfy-twilight-7e819e.netlify.app/
